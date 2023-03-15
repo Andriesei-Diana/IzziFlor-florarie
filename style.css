@@ -1,0 +1,139 @@
+:root {
+  --primaryColor: #edc1bf;
+  --secondaryColor: #07105f;
+  --thirdColor: #be8fa8;
+  --whiteColor: #ffffff;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+nav {
+  background-color: var(--thirdColor);
+}
+
+.navbar-toggler {
+  color: var(--secondaryColor);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%287, 16, 95, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-item a {
+  color: var(--secondaryColor);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.nav-item a:hover {
+  color: var(--secondaryColor);
+  font-weight: bold;
+  text-decoration: underline 3px var(--primaryColor);
+}
+
+/* ---------Banner cu orhidee-------- */
+.img-imagine {
+  background-image: url("assets/img/orchid-1291675_960_720.jpg");
+  background-position: center center;
+  height: 45vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* ---------Slogan-sau-Reclama------ */
+
+.indemn {
+  text-align: center;
+  padding: 50px;
+  font-size: 30px;
+  color: var(--secondaryColor);
+}
+
+/* -----------Carduri cu Flori--------- */
+
+.img-top {
+  width: 300px;
+  height: 300px;
+}
+
+.card-img-top {
+  padding: 5px;
+}
+
+.caseta:hover {
+  box-shadow: 4px 8px 16px 4px var(--primaryColor);
+  transition: 1s;
+}
+
+/* -------Card tip Banner cu text si imagine------- */
+
+.textMic {
+  color: var(--whiteColor);
+  font-size: 17px;
+  padding: 70px 10px;
+  line-height: 24px;
+  background-color: var(--thirdColor);
+}
+.text-banner {
+  background-color: var(--thirdColor);
+}
+
+.img-creatiile-noastre {
+  background-image: url("assets/img/img-creatiile-noastre.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* ----------Slide cu Flori-------- */
+
+.Slide {
+  padding-top: 80px;
+}
+
+.carousel-item {
+  height: 70vh;
+  border: 3px ridge var(--primaryColor);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.carousel-item-1 {
+  background-image: url("assets/img/rose.jpg");
+}
+
+.carousel-item-2 {
+  background-image: url("https://cdn.pixabay.com/photo/2019/10/13/14/33/flower-4546245__340.jpg");
+}
+
+.carousel-item-3 {
+  background-image: url("https://cdn.pixabay.com/photo/2018/03/17/07/23/flower-3233271__340.jpg");
+}
+/* ---------Testimoniale-------- */
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.testimonialName {
+  color: var(--secondaryColor);
+}
+.icon {
+  color: var(--thirdColor);
+}
+
+.iconStar {
+  color: #ffcf4d;
+}
+
+/* ---------Footer----------- */
+
+.text-reset {
+  text-decoration: none;
+}
